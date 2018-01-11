@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
@@ -20,9 +19,6 @@ const styles = theme => ({
 });
 
 class MenuBar extends Component {
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 		const { classes } = this.props;
